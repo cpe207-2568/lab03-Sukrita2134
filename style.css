@@ -1,0 +1,81 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.montserrat {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 0.2;
+}
+
+.libertinus {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 800;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 0.2;
+  color: oklab(33.919% 0.01852 0.05853 / 0.953);
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 0.5;
+}
+
+.link {
+  font-size: 15px;
+  color: oklab(33.919% 0.01852 0.05853 / 0.733);
+  text-decoration: none;
+}
+
+.octagon {
+  aspect-ratio: 1;
+  object-fit: cover;
+  display: block;
+  overflow: hidden;
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+}
+
+.my-rounded-left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  overflow: hidden;
+}
+
+.my-rounded-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+
+.my-rounded-all {
+  border-radius: 10px;
+  overflow: hidden;
+}
